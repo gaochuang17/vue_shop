@@ -239,6 +239,7 @@ export default {
       // console.log(res.data)
       //把数据列表赋值给cataList
       this.cataList = res.data.result
+      // console.log(this.cataList)
       //为总数据条数赋值
       this.total = res.data.total
     },
